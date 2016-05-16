@@ -1,0 +1,139 @@
+body {
+  padding-top: 50px;
+}
+
+.header {
+  padding: 40px 15px;
+  text-align: center;
+  padding-bottom: 5px;
+  
+}
+
+#map {
+    height: 500px;
+  
+   margin: auto;
+   padding-left: 0px;
+   margin-left: 0px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 35px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+
+
+  }
+
+.lead {
+ font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+  color: #000000;
+
+}
+
+.search {
+	font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  color: #000000;
+}
+
+
+  h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  font-variant: small-caps;
+  font-size: 20px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  color: #A9A9A9;
+  }
+
+p {
+	font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  color: #000000;
+}
+
+
+  #bottom {
+  	width: 1000px;
+  	margin: auto;
+  }
+
+.left {
+	float: left;
+}
+
+.legend {
+	line-height: 18px;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+svg .legendSvg1 { 
+	fill: #fef0d9;
+	stroke: black; 
+	stroke-width: 0.5;
+	opacity: 0.75;
+}
+
+svg .legendSvg2 { 
+	fill: #fdcc8a;
+	stroke: black; 
+	stroke-width: 0.5;
+	opacity: 0.75;
+}
+
+svg .legendSvg3 { 
+	fill: #fc8d59;
+	stroke: black; 
+	stroke-width: 0.5;
+	opacity: 0.75;
+}
+
+svg .legendSvg4 { 
+	fill: #d7301f;
+	stroke: black; 
+	stroke-width: 0.5;
+	opacity: 0.75;
+}
+
+svg .legendSvg5 { 
+	fill: #00b300;
+	stroke: false;
+    opacity: 0.8
+}
